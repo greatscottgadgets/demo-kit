@@ -1,0 +1,124 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L gsg-symbols:APA102 D?
+U 1 1 5C82B606
+P 4900 3250
+F 0 "D?" H 4900 3687 60  0000 C CNN
+F 1 "APA102" H 4900 3581 60  0000 C CNN
+F 2 "" H 4900 3250 60  0001 C CNN
+F 3 "" H 4900 3250 60  0001 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C82C096
+P 4450 3500
+F 0 "#PWR?" H 4450 3250 50  0001 C CNN
+F 1 "GND" H 4455 3327 50  0000 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "" H 4450 3500 50  0001 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C82C0BE
+P 5150 2400
+F 0 "#PWR?" H 5150 2150 50  0001 C CNN
+F 1 "GND" V 5155 2272 50  0000 R CNN
+F 2 "" H 5150 2400 50  0001 C CNN
+F 3 "" H 5150 2400 50  0001 C CNN
+	1    5150 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C82C166
+P 5350 3500
+F 0 "#PWR?" H 5350 3350 50  0001 C CNN
+F 1 "VCC" H 5368 3673 50  0000 C CNN
+F 2 "" H 5350 3500 50  0001 C CNN
+F 3 "" H 5350 3500 50  0001 C CNN
+	1    5350 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C82C192
+P 4950 2450
+F 0 "#PWR?" H 4950 2300 50  0001 C CNN
+F 1 "VCC" H 4968 2623 50  0000 C CNN
+F 2 "" H 4950 2450 50  0001 C CNN
+F 3 "" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5C82C1CE
+P 4750 2100
+F 0 "J?" V 4716 1712 50  0000 R CNN
+F 1 "Conn_01x06" V 4625 1712 50  0000 R CNN
+F 2 "" H 4750 2100 50  0001 C CNN
+F 3 "~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 2300 4950 2450
+Wire Wire Line
+	5050 2300 5050 2400
+Wire Wire Line
+	5050 2400 5150 2400
+Wire Wire Line
+	4550 3350 4450 3350
+Wire Wire Line
+	4450 3350 4450 3500
+Wire Wire Line
+	5250 3350 5350 3350
+Wire Wire Line
+	5350 3350 5350 3500
+Wire Wire Line
+	4550 3150 4550 2700
+Wire Wire Line
+	4550 2700 4850 2700
+Wire Wire Line
+	4850 2700 4850 2300
+Wire Wire Line
+	4550 3250 4500 3250
+Wire Wire Line
+	4500 3250 4500 2600
+Wire Wire Line
+	4500 2600 4750 2600
+Wire Wire Line
+	4750 2600 4750 2300
+Wire Wire Line
+	5250 3150 5250 2800
+Wire Wire Line
+	5250 2800 4650 2800
+Wire Wire Line
+	4650 2800 4650 2300
+Wire Wire Line
+	5250 3250 5300 3250
+Wire Wire Line
+	5300 3250 5300 2650
+Wire Wire Line
+	5300 2650 4550 2650
+Wire Wire Line
+	4550 2650 4550 2300
+$EndSCHEMATC
